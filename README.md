@@ -110,3 +110,7 @@ To see how various different models perform with default parameters, I try the f
 | Random Forest | 85.9% |
 | Support Vector Classifier | 82.9% |
 | Xtreme Gradient Boosting | 85.1% |
+
+## Model Tuning 
+
+I use Grid Search to tune the models used in the previous section and obtain the following results:
