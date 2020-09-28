@@ -10,7 +10,11 @@
 The goal of this project is to better understand and predict customer churn (i.e. whether a costumer leaves or not) for a bank. I will identify and visualize factorst that contribute to customer churn and build a prediction model that will classify if a customer will churn or not. 
 
 ### Results and Insight
-[Fill in with results and insight]
+
+* After tuning, the Random Forest model produces the highest level accuracy, with **86.3%** accuracy.
+* Inactive members are more likely to leave the bank, as is expected. However, the data all shows that a good number of members is inactive. To reduce churn, the bank could focus on actively engaging with more members.
+* Customers with a higher bank balance were more likely to exit, despite the fact that (after removing empty accounts) bank balance was close to normally distributed. This might indicate that the bank is not doing enough to serve customers who have a larger amount of money to deposit by, for example, offerin special products to heavy savers. 
+* Surprisingly, older members were more likely to exit. The correlation matrix indicates that age is not strongly correlated with bank balance and is even positively (although weakly) with being an active member (which discourages churn). Therefore, the relationship between and age does not seem to be explained by these other factors. It might be worth investigating what the banks older members are lacking
 
 
 
@@ -61,19 +65,24 @@ After retrieving the data from Kaggle, I clean the data to improve the accuracy 
 
 To gain an initial understanding of the data, I create several visualizations. For the numerical data, I create histograms to understand their distribution. For the categorical data, I create bar charts for the categorical data to understand the balance of classes. 
 
-[Image]
-[Image]
+ ![Barchart of geographical locations](https://github.com/sabinenotabot/Bank-Customer-Churn-Prediction/blob/master/Geography.png)
+ 
+ ![Histogram of bank balance distribution](https://github.com/sabinenotabot/Bank-Customer-Churn-Prediction/blob/master/Bank%20Balance%20Distribution.png)
 
 
 I also take a closer look at churn and the effect of different customer characteristics on it. In addition to a barchart, I create a pie chart of the churn ratio: 
 
-[Image]
+ ![Piechart of customer churn](https://github.com/sabinenotabot/Bank-Customer-Churn-Prediction/blob/master/Churn%20Breakdown.png)
 
 According to the data, around 20% of customers exited the bank. 
 
 For the numerical data I create boxplots that visualize the impact of a customer characteristic on churn. For the categorical data I create additional barcharts that seperate classes into Exited/Retained to show how many members of each class exited or stayed with the bank. I also create pivot tables for both types of variables. Finally, I create a correlation matrix to visualize the correlation between the variables in our dataset. 
 
-
+ ![Churn rates per category](https://github.com/sabinenotabot/Bank-Customer-Churn-Prediction/blob/master/Barcharts.png)
+ 
+ ![The relation between churn and continous variables](https://github.com/sabinenotabot/Bank-Customer-Churn-Prediction/blob/master/Boxplots.png)
+ 
+ ![Correlation Matrix](https://github.com/sabinenotabot/Bank-Customer-Churn-Prediction/blob/master/Correlation%20Matrix.png)
 
 Based on the exploratory analysis, I conclude the following about the characteristics that influence customer churn: 
 * Inactive members are more likely to leave the bank, as is expected. However, the data all shows that a good number of members is inactive. To reduce churn, the bank could focus on actively engaging with more members.
