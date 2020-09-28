@@ -2,7 +2,7 @@
 
 *Skills: Data Cleaning, Exploratory Analysis, Visualization, Pivot Tables, Feature Engineering, Data Preprocessing, Model Tuning*
 
-*Models Used: Naive Bayes, Logistic Regression, Decision Tree, Random Forest, KNN, SVC, XGB, Voting Classifier (ensemble model)*
+*Models Used: Naive Bayes, Logistic Regression, Decision Tree, Random Forest, KNN, SVC, XGBoost*
 
 ## Project Overview 
 
