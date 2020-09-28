@@ -103,7 +103,7 @@ To see how various different models perform with default parameters, I try the f
 
 | Model | Baseline Performance | 
 | --------------- | --------------- |
-| Logistic Regression | 80.3% |
+| Logistic Regression | 80.8% |
 | Naive Bayes | 81.2% | 
 | Decision Tree | 79.4% |
 | K Nearest Neighbour | 81.5% |
@@ -114,3 +114,16 @@ To see how various different models perform with default parameters, I try the f
 ## Model Tuning 
 
 I use Grid Search to tune the models used in the previous section and obtain the following results:
+
+
+| Model | Tuned Performance | 
+| --------------- | --------------- |
+| Logistic Regression | 81.0% |
+| Naive Bayes | NA | 
+| Decision Tree | NA |
+| K Nearest Neighbour | 81.7% |
+| Random Forest | 86.3% |
+| Support Vector Classifier | 84.1% |
+| Xtreme Gradient Boosting | 85.9% |
+
+It turns out that the Random Forest model produces the highest level accuracy, with **86.3%** accuracy.
