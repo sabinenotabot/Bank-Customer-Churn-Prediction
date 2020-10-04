@@ -111,7 +111,7 @@ To prepare the data for modelling, I perform the following actions:
 To see how various different models perform with default parameters, I try the following models using 5 fold cross validation to get a baseline:
 
 | Model | Baseline Performance | 
-| --------------- | --------------- |
+| --------------- | ----------- |
 | Logistic Regression | 80.8% |
 | Naive Bayes | 81.2% | 
 | Decision Tree | 79.4% |
