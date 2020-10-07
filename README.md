@@ -1,4 +1,4 @@
-# Bank Customer Churn Prediction (Python) 
+# Bank Customer Churn Prediction 
 
 *Skills: Data Cleaning, Exploratory Analysis, Visualization, Pivot Tables, Feature Engineering, Data Preprocessing, Model Tuning*
 
