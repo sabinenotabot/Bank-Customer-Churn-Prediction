@@ -14,7 +14,7 @@ The goal of this project is to better understand and predict customer churn (i.e
 * After tuning, the Random Forest model produces the highest level accuracy, with **86.3%** accuracy.
 * Inactive members are more likely to leave the bank, as is expected. However, the data all shows that a good number of members is inactive. To reduce churn, the bank could focus on actively engaging with more members.
 * Customers with a higher bank balance were more likely to exit, despite the fact that (after removing empty accounts) bank balance was close to normally distributed. This might indicate that the bank is not doing enough to serve customers who have a larger amount of money to deposit by, for example, offerin special products to heavy savers. 
-* Surprisingly, older members were more likely to exit. The correlation matrix indicates that age is not strongly correlated with bank balance and is even positively (although weakly) with being an active member (which discourages churn). Therefore, the relationship between and age does not seem to be explained by these other factors. It might be worth investigating what the banks older members are lacking
+* Surprisingly, older members were more likely to exit. The correlation matrix indicates that age is not strongly correlated with bank balance and is even positively (although weakly) with being an active member (which discourages churn). Therefore, the relationship between and age does not seem to be explained by these other factors. It might be worth investigating how to better serve older customers. 
 
 
 
