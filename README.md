@@ -7,7 +7,7 @@
 ## Project Overview 
 
 ### Objective 
-The goal of this project is to better understand and predict customer churn (i.e. whether a costumer leaves or not) for a bank. I will identify and visualize factorst that contribute to customer churn and build a prediction model that will classify if a customer will churn or not. 
+The goal of this project is to better understand and predict customer churn (i.e. whether a costumer leaves or not) for a bank. I will identify and visualize factors that contribute to customer churn and build a prediction model that will classify if a customer will churn or not. 
 
 ### Results and Insight
 
